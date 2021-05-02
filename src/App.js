@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import HomePage from './components/HomePage/HomePage';
 import Navbar from './components/Navbar/Navbar';
-import Particle from './components/Particle/Particle';
 
 function App() {
   return (
