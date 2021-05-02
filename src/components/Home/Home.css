@@ -1,0 +1,39 @@
+.sumu-img {
+    border-radius: 50%; 
+}
+
+.img-div {
+    margin: 70px 0px;
+    text-align: center;
+}
+
+.lorem {
+    font-size: 40px;
+    font-weight: 800;
+    color: beige;
+}
+.name-color {
+    color:rgb(240, 186, 120) ;
+    text-decoration: none;
+
+}
+
+.link-color {
+    color:rgb(240, 186, 120) ;
+    text-decoration: none;
+
+}
+
+.link-color:hover {
+    color:rgb(240, 186, 120) ;
+
+}
+@media only screen and (max-width: 600px) {
+    .hello {
+        padding: 30px 0px !important ;
+    }
+    .lorem {
+        font-size: 23px;
+        font-weight: 600;
+    }
+  }
