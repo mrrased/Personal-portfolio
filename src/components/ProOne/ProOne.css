@@ -1,0 +1,49 @@
+.project-img{
+    width: 600px;
+    height: 150px;
+}
+
+.project-name {
+    /* border: 3px solid rgb(14, 236, 62); */
+    font-family: 'Merriweather Sans', sans-serif;
+    color:rgb(240, 186, 120)
+}
+
+.selected-works {
+    text-align: center;
+    color:beige
+}
+
+.sel-work {
+    font-size: 80px;
+    font-weight: 1000;
+}
+
+.pro-div {
+    padding-left: 50px;
+}
+
+.icon {
+    font-size: 35px;
+    color: beige;
+}
+
+.icons {
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .pro-div {
+        padding-left: 10px;
+    }
+    .project-img{
+        width: 420px;
+        padding-left: 0px;
+        margin-left: auto;
+        height: 150px;
+    }
+    .sel-work {
+        font-size: 44px;
+        font-weight: 1000;
+    }
+}

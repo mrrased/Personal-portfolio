@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import HomePage from './components/HomePage/HomePage';
 import Navbar from './components/Navbar/Navbar';
+import ProOne from './components/ProOne/ProOne';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
      <HomePage></HomePage>
      </Route>
      <Route path="/work">
-     <Projects></Projects>
+     <ProOne></ProOne>
      </Route>
      <Route path="/blog">
      <Blog></Blog>
