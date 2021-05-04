@@ -7,3 +7,59 @@
     height: 250px;
     width:250p;
 } */
+
+@media only screen and (max-width: 320px) {
+    .img {
+    height: 150px;
+    width:200px;
+    padding-left: auto !important;
+    margin-left: auto !important;
+}
+.blog {
+    font-size: 25px;
+}
+}
+@media only screen and (min-width: 412px) {
+    .img {
+        height: 150px;
+        width:250px;
+        padding-left: auto !important;
+        margin-left: auto !important;
+    }
+    .blog {
+        font-size: 30px;
+    }
+}
+ 
+@media only screen and (min-width: 360px) {
+    .img {
+        height: 150px;
+        width:250px;
+        padding-left: auto !important;
+        margin-left: auto !important;
+    }
+    .blog {
+        font-size: 26px;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .img {
+        height: 250px;
+        width:390px;
+        padding-left: auto !important;
+        margin-left: auto !important;
+        padding-top: 30px;
+    }
+    .blog {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .img {
+        height: 200px;
+        width:300px;
+        padding-left: auto !important;
+        margin-left: auto !important;
+    }
+}

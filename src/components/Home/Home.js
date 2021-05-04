@@ -9,7 +9,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container home">
       <div className="img-div">
         <img className="sumu-img" src={sumu} alt="" srcset="" />
         <div className="hello m-5">
@@ -44,7 +44,7 @@ const Home = () => {
           <h4 className="lorem mt-5">
             If you love a chat feel free to drop me a line ___
           </h4>
-          <h4 className="lorem mt-5 name-color">sumaiya.tr96@gmail.com</h4>
+          <h4 className="lorem mt-5 name-color mail">sumaiya.tr96@gmail.com</h4>
           <h4 className="lorem mt-5">Or</h4>
           <h4 className="lorem mt-5">
             Leave a{" "}

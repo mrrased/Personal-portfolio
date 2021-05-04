@@ -11,7 +11,7 @@ import "./ProOne.css";
 
 const ProOne = () => {
   return (
-    <div className="container pt-5 mt-5">
+    <div className="container home pt-5 mt-5">
       <div className="justify-content-center selected-works mb-5 pb-5">
         <h1 className="sel-work">Selected_Works</h1>
       </div>

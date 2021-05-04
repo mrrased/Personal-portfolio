@@ -1,11 +1,11 @@
 .project-img{
-    width: 600px;
+    width: 650px;
     height: 150px;
 }
 
 .project-name {
     /* border: 3px solid rgb(14, 236, 62); */
-    font-family: 'Merriweather Sans', sans-serif;
+    /* font-family: 'Merriweather Sans', sans-serif; */
     color:rgb(240, 186, 120);
 }
 
@@ -63,7 +63,7 @@
         padding-left: 10px;
     }
     .project-img{
-        width: 420px;
+        width: 450px;
         padding-left: 0px;
         margin-left: auto;
         height: 150px;
@@ -77,5 +77,101 @@
     }
     .content {
         font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .project-img{
+        width: 295px;
+        padding-left: 0px;
+        margin-left: auto;
+        height: 150px;
+    }
+    .sel-work {
+        font-size: 25px;
+        font-weight: 1000;
+    }
+    .project-name {
+        font-size: 17px;
+    }
+    .project-des {
+        font-size: 15px;
+    }
+    .icon {
+        font-size: 25px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+    .project-name {
+        font-size: 20px;
+    }
+    .sel-work {
+        font-size: 30px;
+        font-weight: 1000;
+    }
+    .project-des {
+        font-size: 16px;
+    }
+    .project-img{
+        width: 400px;
+        padding-left: 0px;
+        margin-left: auto;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .project-name {
+        font-size: 25px;
+    }
+    .sel-work {
+        font-size: 30px;
+        font-weight: 1000;
+    }
+    .project-des {
+        font-size: 20px;
+    }
+    .project-img{
+        width: 335px;
+        padding-left: 0px;
+        margin-left: auto;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .project-img{
+        width: 375px;
+        padding-left: 0px;
+        margin-left: auto;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .project-img{
+        width: 515px;
+        height: 150px;
+    }
+    .project-name {
+        font-size: 35px;
+    }
+    .sel-work {
+        font-size: 40px;
+        font-weight: 1000;
+    }
+    .project-des {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .sel-work {
+        font-size: 60px;
+        font-weight: 1000;
     }
 }

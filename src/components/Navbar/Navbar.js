@@ -8,7 +8,7 @@ import {
 
 const Navbar = () => {
     return (
-        <div className="menu-wrap">
+        <div className="menu-wrap home container">
             <input type="checkbox" className="toggler"/>
             <div className="hamburger">
                 <div>
